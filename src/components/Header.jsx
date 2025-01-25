@@ -7,15 +7,16 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <a href="/">LoveBite</a>
+          <a href="/"><img className="favicon"src="./favicon.ico"/></a>
+          <a href="/"> LoveBite</a>
         </div>
         <nav>
           <ul className="nav-links">
             <li>
-              <a href="#Me">Me</a>
+              <Link to="/">Me</Link>
             </li>
             <li>
-              <a href="#You">You</a>
+              <Link to="/">You</Link>
             </li>
             <li>
             <Link to="/Question">Question</Link> 
