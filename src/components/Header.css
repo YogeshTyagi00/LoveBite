@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/romantic');
+.header {
+  background-color: #a28089; 
+  padding: 1rem 0;
+  font-family: 'Romantic', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800px;
+}
+
+.logo a, 
+.logo Link {
+  color: white;
+  text-decoration: none;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 200px;
+}
+
+.nav-links a, 
+.nav-links Link { 
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links Link:hover {
+  color: #93c5fd; 
+}
